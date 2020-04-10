@@ -1,0 +1,26 @@
+#assigning elements to list
+
+list1=[1,3,5,7]
+list2=['a','e','i','o']
+list3=[]
+
+list1.append(9)
+list2.append('u')
+list3.append(2)
+
+print(list1)
+print(list2)
+print(list3)
+
+#accessing elements in a tuple
+
+tuple=('Jack','Ron','Alex',1,2)
+print(tuple[3])
+print(tuple[0:-2])
+
+#deleting different dictionary elements
+
+dict={'Karnataka':'Banglore','Tamil Nadu':'Chennai','Telangana':'Hyderabad','Goa':'Panaji'}
+del dict['Telangana']
+del dict['Karnataka']
+print(dict)
